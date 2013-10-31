@@ -28,7 +28,7 @@ curl -OL http://downloads.sourceforge.net/infozip/unzip552.tar.gz
 tar zxvf unzip552.tar.gz
 cd unzip-5.52
 cp unix/Makefile .
-mage generic
+make generic
 echo "unzip installed" | indent
 
 cd $BUILD_DIR
