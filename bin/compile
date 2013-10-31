@@ -33,4 +33,4 @@ echo "unzip installed" | indent
 
 cd $BUILD_DIR
 mkdir -p $BUILD_DIR/bin
-cp unzip $BUILD_DIR/bin
+cp $UNZIP_BUILD/unzip-5.52/unzip $BUILD_DIR/bin
